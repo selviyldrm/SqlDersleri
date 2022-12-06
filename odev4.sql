@@ -7,4 +7,4 @@ SELECT COUNT(*) FROM film WHERE title LIKE 'T%' AND rating='G'
 --country tablosunda bulunan ülke isimlerinden (country) kaç tanesi 5 karakterden oluşmaktadır?
 SELECT COUNT(*) FROM country WHERE country LIKE '_____'
 --city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
-SELECT * FROM city WHERE city  ILIKE '%r'
+SELECT COUNT(*) FROM city WHERE city  ILIKE '%r'
